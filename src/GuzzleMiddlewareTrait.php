@@ -16,7 +16,7 @@ trait GuzzleMiddlewareTrait
      * @param $method_name
      * @return HandlerStack
      */
-    public static function initialize($logger,$log=[]){
+    public static function initialize($logger,&$log){
         $handler = new CurlHandler();
         $stack = HandlerStack::create($handler);
         $start_time = 0;
