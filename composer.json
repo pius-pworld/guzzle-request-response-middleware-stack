@@ -1,0 +1,19 @@
+{
+    "name": "shabbir/guzzle-request-response-middleware-stack",
+    "description": "This will create the client of guzzle and will use request and reponse middleware for logging",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "authors": [
+        {
+            "name": "Shabbir Ahmed",
+            "email": "shabbir.ahmed@brainstation23.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Shabbir\\GuzzleMiddlewareStack\\": "src/"
+        }
+    }
+}
