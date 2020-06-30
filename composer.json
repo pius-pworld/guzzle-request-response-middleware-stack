@@ -3,7 +3,7 @@
     "description": "This will create the client of guzzle and will use request and reponse middleware for logging",
     "type": "library",
     "require": {
-        "guzzlehttp/guzzle": "^7.0"
+        "guzzlehttp/guzzle": "^6.3"
     },
     "authors": [
         {
@@ -15,5 +15,6 @@
         "psr-4": {
             "Shabbir\\GuzzleMiddlewareStack\\": "src/"
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
