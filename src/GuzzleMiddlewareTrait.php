@@ -11,12 +11,11 @@ use GuzzleHttp\Psr7\Response;
 trait GuzzleMiddlewareTrait
 {
     /**
-     * @param $logger
      * @param $class_name
      * @param $method_name
      * @return HandlerStack
      */
-    public static function initialize($logger,&$log){
+    public static function initialize(&$log){
         $handler = new CurlHandler();
         $stack = HandlerStack::create($handler);
         $start_time = 0;
@@ -35,7 +34,7 @@ trait GuzzleMiddlewareTrait
         }));
 
         // response middleware
-        $stack->push(Middleware::mapResponse(function (Response $response) use (&$log, &$start_time, &$logger){
+        $stack->push(Middleware::mapResponse(function (Response $response) use (&$log, &$start_time){
             $body = $response->getBody()->getContents();
             $jsonBody = json_decode($body, true);
             if (json_last_error() !== JSON_ERROR_NONE) {

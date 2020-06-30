@@ -38,7 +38,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../pol/pol-recharge-ms/src/storage/logs/01-07-20.log">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../pol/pol-recharge-ms/src/storage/logs/30-06-20.log">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pol/pol-recharge-ms/src/vendor/shabbir/guzzle-request-response-middleware-stack/src/GuzzleMiddlewareTrait.php">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pol/pol-recharge-ui-ms/src/composer.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../pol/pol-recharge-ui-ms/src/storage/logs/01-07-20.log">
           <value>
             <set />
           </value>
