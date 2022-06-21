@@ -3,7 +3,7 @@
     "description": "This will create the client of guzzle and will use request and reponse middleware for logging",
     "type": "library",
     "require": {
-        "guzzlehttp/guzzle": "^6.3"
+        "guzzlehttp/guzzle": "^6.3 || ^7.0"
     },
     "authors": [
         {
